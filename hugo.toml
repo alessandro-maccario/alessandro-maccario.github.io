@@ -1,4 +1,123 @@
-theme = [ "PaperMod" ]
-baseURL = '/'
-languageCode = 'en-us'
-title = 'The Constant Deviation'
+languageCode = "en-us"
+baseURL = "/"
+title = "The Constant Deviation"
+pagerSize = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "The Constant Deviation"
+description = "This is the website of Chanin Nantasenamat, Ph.D. and I create educational content on data science. Some of you may know me as the **Data Professor**."
+keywords = [ "Blog", "Portfolio", "Data Science" ]
+author = "The Constant Deviation"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.label]
+  text = "The Constant Deviation"
+  icon = "images/coding.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = "Welcome! 🤓"
+  subtitle = "Hi, I'm **Alessandro Maccario**, **Data Engineer** 💻🛠️. Welcome to my mind 🧠!"
+  imageUrl = "images/Me.jpg"
+  imageWidth = 250
+  imageHeight = 250
+  imageTitle = "Data Engineer"
+
+    [[params.profileMode.buttons]]
+    name = "About"
+    url = "about"
+
+    [[params.profileMode.buttons]]
+    name = "Blogs"
+    url = "blogs"
+
+    [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "projects"
+
+  [params.homeInfoParams]
+  Title = "Welcome! 👋"
+  Content = "This is the website of **Alessandro Maccario**, Data Engineer."
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/alessandro-maccario-7b173377/"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/alessandro-maccario"
+
+  [[params.socialIcons]]
+  name = "stackoverflow"
+  url = "https://stackoverflow.com/users/11935876/3foxtrot0"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = false
+
+  [params.editPost]
+  URL = ""
+  Text = ""
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[params.fuseOpts.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
+
+[[params.fuseOpts.menu.main]]
+identifier = "blog"
+name = "Blogs"
+url = "/blogs/"
+weight = 1
+
+[[params.fuseOpts.menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 2
+
+[[params.fuseOpts.menu.main]]
+identifier = "infographics"
+name = "Infographics"
+url = "/infographics/"
+weight = 3
