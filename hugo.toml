@@ -7,6 +7,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+enableEmoji = true
 
 [minify]
 disableXML = true
@@ -15,8 +16,8 @@ minifyOutput = true
 [params]
 env = "production"
 title = "The Constant Deviation"
-description = "This is the website of Chanin Nantasenamat, Ph.D. and I create educational content on data science. Some of you may know me as the **Data Professor**."
-keywords = [ "Blog", "Portfolio", "Data Science" ]
+description = "This is the website of Alessandro Maccario, Data Engineer. Welcome to my Mental Knowledge Archive."
+keywords = [ "Blog", "Portfolio", "Data Engineer", "Data Science", "Programming", "Food" ]
 author = "The Constant Deviation"
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
@@ -25,7 +26,7 @@ ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
+ShowCodeCopyButtons = true
 disableSpecial1stPost = false
 disableScrollToTop = false
 comments = false
@@ -33,6 +34,8 @@ hidemeta = false
 hideSummary = false
 showtoc = false
 tocopen = false
+share_buttons_disabled = ["telegram", "ycombinator", "whatapp", "X", "facebook"]
+
 
   [params.label]
   text = "The Constant Deviation"
@@ -42,11 +45,13 @@ tocopen = false
   [params.profileMode]
   enabled = true
   title = "Welcome! 🤓"
-  subtitle = "Hi, I'm **Alessandro Maccario**, **Data Engineer** 💻🛠️. Welcome to my mind 🧠!"
+  subtitle = """Hi, I'm **Alessandro Maccario**, **Data Engineer** 💻🛠️.  
+                :austria: based.  
+                Welcome to my **Mental Knowledge Archive** 🧠!"""
   imageUrl = "images/Me.jpg"
   imageWidth = 250
   imageHeight = 250
-  imageTitle = "Data Engineer"
+  imageTitle = "Alessandro Maccario"
 
     [[params.profileMode.buttons]]
     name = "About"
@@ -61,7 +66,7 @@ tocopen = false
     url = "projects"
 
   [params.homeInfoParams]
-  Title = "Welcome! 👋"
+  Title = "Welcome! 🤓"
   Content = "This is the website of **Alessandro Maccario**, Data Engineer."
 
   [[params.socialIcons]]
@@ -76,8 +81,8 @@ tocopen = false
   name = "stackoverflow"
   url = "https://stackoverflow.com/users/11935876/3foxtrot0"
 
-[params.analytics.google]
-SiteVerificationTag = "XYZabc"
+  [params.analytics.google]
+  SiteVerificationTag = "XYZabc"
 
   [params.cover]
   hidden = true
