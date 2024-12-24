@@ -47,7 +47,7 @@ share_buttons_disabled = ["telegram", "ycombinator", "whatapp", "X", "facebook"]
   title = "Welcome! 🤓"
   subtitle = """Hi, I'm **Alessandro Maccario**, **Data Engineer** 💻🛠️.  
                 :austria: based.  
-                Welcome to my **Mental Knowledge Archive** 🧠!"""
+                Welcome to my **Mental Knowledge Archive** 🧠 and **Public Writing** experiment 🧪!"""
   imageUrl = "images/Me.jpg"
   imageWidth = 250
   imageHeight = 250
