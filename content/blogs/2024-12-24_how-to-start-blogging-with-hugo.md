@@ -14,7 +14,7 @@ showtoc: true
 draft: false
 ---
 
-==ADD TEXT HERE FOR THE INTRO ON THE BLOG TEXT PREVIEW==
+This is my first blog post, ever. And because I've built this website by using [Hugo](https://gohugo.io/), why not starting this journey of self-learning by a blog post on how to start with amazing framework?
 
 **Note**: _The following how-to has been tested on a Windows (10) operating system only._
 
@@ -66,3 +66,16 @@ Let's say you want to start with the most common Theme available for **Hugo**, [
    2. [The Data Professor PaperMod Github Example](https://github.com/dataprofessor/chanin.tech/tree/main)
    3. [The Data Professor - How to build a portfolio website for data science | Hugo + Hostinger](https://www.youtube.com/watch?v=sm3IuE7zkYQ&t=722s)
    4. [How to Set Up This Blog](https://kpwn.de/2021/09/how-to-set-up-this-blog/)
+
+### Publish your blog on gh-pages
+
+And now, what? After you have built your own blog _locally_, you can think of showing it to the world. But how? Here, the **gh-pages** comes into _action_. Because we are not using _Jekyll_ as a SSG (Static Site Generator), the [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) page suggests to use the **GitHub Actions** in order to publish our _Hugo_ website.
+
+You can follow the [Host on GitHub Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/) how-to for hosting and deployment to understand what are the necessary steps to easily and freely host your own blog online.
+
+References:
+
+- https://gohugo.io/hosting-and-deployment/hosting-on-github/
+- https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites
+- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+- https://medium.com/@magstherdev/github-pages-hugo-86ae6bcbadd
