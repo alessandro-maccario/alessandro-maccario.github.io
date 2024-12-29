@@ -1,6 +1,6 @@
-# The Constant Deviation
+# Alessandro Maccario's Personal Page
 
-A personal blog to share my past and present knowledge about different topics, mainly computer science related ones.
+A personal webpage to share my past and present knowledge about different topics, mainly computer science related ones.
 
 ### Why?
 
