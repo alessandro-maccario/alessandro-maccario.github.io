@@ -1,6 +1,6 @@
 languageCode = "en-us"
 baseURL = "/"
-title = "The Constant Deviation"
+title = "Alessandro Maccario"
 pagerSize = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -15,10 +15,10 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "The Constant Deviation"
+title = "Alessandro Maccario"
 description = "This is the website of Alessandro Maccario, Data Engineer. Welcome to my Mental Knowledge Archive."
 keywords = [ "Blog", "Portfolio", "Data Engineer", "Data Science", "Programming", "Food" ]
-author = "The Constant Deviation"
+author = "Alessandro Maccario"
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -38,7 +38,7 @@ share_buttons_disabled = ["telegram", "ycombinator", "whatapp", "X", "facebook"]
 
 
   [params.label]
-  text = "The Constant Deviation"
+  text = "Alessandro Maccario"
   icon = "images/coding.png"
   iconHeight = 35
 
