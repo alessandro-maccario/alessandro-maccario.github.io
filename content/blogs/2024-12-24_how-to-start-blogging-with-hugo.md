@@ -14,7 +14,7 @@ showtoc: true
 draft: false
 ---
 
-This is my first blog post, ever. And because I've built this website by using [Hugo](https://gohugo.io/), why not starting this journey of self-learning by a blog post on how to start with amazing framework?
+This is my first blog post, ever. And because I've built this website by using [Hugo](https://gohugo.io/), why not starting this journey of self-learning by a blog post on how to start with this amazing framework?
 
 **Note**: _The following how-to has been tested on a Windows (10) operating system only._
 
@@ -56,10 +56,10 @@ Starting with a theme is the easiest way to look at a setup already done. From t
 Let's say you want to start with the most common Theme available for **Hugo**, [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
 1. Follow the [installation guide](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation), the _recommended method 2_.
-2. You can use the [Data Professor](https://github.com/dataprofessor) [config.yml](https://github.com/dataprofessor/chanin.tech/blob/main/config.yml) file to get inspiration of what he already did and then edit the available configuration settings.
+2. You can use the [Data Professor](https://github.com/dataprofessor) [config.yml](https://github.com/dataprofessor/chanin.tech/blob/main/config.yml) file to get inspiration of what it has already been done and then edit the available configuration settings.
    1. In case you have the **hugo.toml** file and not the **config.yml** file, you can use the [YAML TO TOML Converter](https://transform.tools/yaml-to-toml) to convert the **config.yml** file into the **hugo.toml**.
 3. `cd` into your project directory and type `hugo server -D` (where the `-D` will run the _drafts_ pages as well) and go to `//localhost:1313/` to see your current locally deployed blog.
-4. If everything went correctly, you should see something like the official [hugo.PaperMod Webpage](https://adityatelange.github.io/hugo-PaperMod/) with the editing from the **Data Professor** _config.yml_ file.
+4. If everything was fine, you should see something like the official [hugo.PaperMod Webpage](https://adityatelange.github.io/hugo-PaperMod/) with the editing from the **Data Professor** _config.yml_ file.
 5. Pat yourself in the back, you now have a blog! 🎉🎊
 6. To improve/edit your newly created blog, you can have a look into the official repo for more info or the following other great resources:
    1. [Hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
@@ -69,7 +69,7 @@ Let's say you want to start with the most common Theme available for **Hugo**, [
 
 ### Publish your blog on gh-pages
 
-And now, what? After you have built your own blog _locally_, you can think of showing it to the world. But how? Here, the **gh-pages** comes into _action_. Because we are not using _Jekyll_ as a SSG (Static Site Generator), the [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) page suggests to use the **GitHub Actions** in order to publish our _Hugo_ website.
+And now, what? After you have built your own blog _locally_, you can think of showing it to the world. But how? Here, the **gh-pages** come into _action_. Because we are not using _Jekyll_ as a SSG (Static Site Generator), the [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) page suggests to use the **GitHub Actions** in order to publish our _Hugo_ website.
 
 You can follow the [Host on GitHub Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/) how-to for hosting and deployment to understand what are the necessary steps to easily and freely host your own blog online.
 
